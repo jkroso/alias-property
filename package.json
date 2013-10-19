@@ -1,0 +1,17 @@
+{
+  "name": "alias-property",
+  "version": "0.1.0",
+  "description": "create robust aliases for an object's properties",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jkroso/alias-property.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkroso/alias-property/issues"
+  },
+  "keywords": ["alias", "property", "link"],
+  "author": "Jake Rosoman",
+  "license": "MIT",
+  "files": ["index.js"]
+}

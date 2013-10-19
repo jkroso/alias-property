@@ -1,0 +1,20 @@
+{
+  "name": "alias-property",
+  "repo": "jkroso/alias-property",
+  "description": "create robust aliases for an object's properties",
+  "keywords": [
+    "alias",
+    "property",
+    "link"
+  ],
+  "dependencies": {},
+  "development": {
+    "visionmedia/mocha": "1.13.0",
+    "jkroso/serve": "1.5.1",
+    "chaijs/chai": "1.8.1"
+  },
+  "scripts": [
+    "index.js"
+  ],
+  "license": "MIT"
+}
