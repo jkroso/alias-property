@@ -21,18 +21,18 @@ var alias = require('alias-property')
 
   create an alias from `from` to `to`
 
-  ```js
-  var obj = {a:1}
-  alias(obj, 'a', 'b')
-  obj.a // => 1
-  obj.b // => 1
-  obj.b = 2
-  obj.a // => 2
-  obj.b // => 2
-  obj.a = 3
-  obj.a // => 3
-  obj.b // => 3
-  ```
+```js
+var obj = {a:1};
+alias(obj, 'a', 'b');
+obj.a; // => 1
+obj.b; // => 1
+obj.b = 2;
+obj.a; // => 2
+obj.b; // => 2
+obj.a = 3;
+obj.a; // => 3
+obj.b; // => 3
+```
 
 ## Running the tests
 

@@ -9,6 +9,7 @@ test: node_modules
 		--timeout 500 \
 		--check-leaks \
 		--bail
+	@sed "s/alias-property/.\//" < Readme.md | jsmd
 
 node_modules: component.json package.json
 	@packin install \
